@@ -1,0 +1,22 @@
+#big3
+# 4 inputs
+# 2 outputs
+# 2 inverter
+# 4 gates ( 2 ANDs + 1 NANDs + 1 XNORs)
+
+INPUT(1)
+INPUT(2)
+INPUT(3)
+INPUT(4)
+
+OUTPUT(9)
+OUTPUT(10)
+
+5 = NOT(1)
+6 = NOT(3)
+7 = AND(5, 2)
+8 = AND(3, 4)
+10 = NAND(7, 8)
+9 = XNOR(5, 2, 6, 4)
+
+

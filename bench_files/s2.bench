@@ -1,0 +1,17 @@
+#small2
+# 3 inputs
+# 2 outputs
+# 0 inverter
+# 2 gates ( 1 NANDs + 1 XORs)
+
+INPUT(1)
+INPUT(2)
+INPUT(3)
+
+OUTPUT(5)
+OUTPUT(6)
+
+4 = XOR(1, 2)
+6 = NAND(4, 3, 2)
+
+

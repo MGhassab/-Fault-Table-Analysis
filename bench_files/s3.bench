@@ -1,0 +1,15 @@
+#small3
+# 3 inputs
+# 1 outputs
+# 0 inverter
+# 3 gates ( 2 NANDs + 1 ORs)
+
+INPUT(1)
+INPUT(2)
+INPUT(3)
+
+OUTPUT(6)
+
+4 = NAND(1, 2)
+5 = NAND(2, 3)
+6 = OR(4, 5)

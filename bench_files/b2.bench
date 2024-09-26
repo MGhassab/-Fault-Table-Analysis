@@ -1,0 +1,21 @@
+#big2
+# 5 inputs
+# 2 outputs
+# 1 inverter
+# 4 gates ( 1 NANDs + 1 XORs + 1 ORs)
+
+INPUT(1)
+INPUT(2)
+INPUT(3)
+INPUT(4)
+INPUT(5)
+
+OUTPUT(8)
+OUTPUT(9)
+
+6 = OR(1, 2, 3)
+7 = NOT(6)
+8 = NAND(7, 4, 5)
+9 = XOR(5, 4, 6)
+
+
